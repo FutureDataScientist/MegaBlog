@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="username">Username:</label>  
+        <input type="text"/ placeholder="enter username" id="username"name="manu">
+     </div>
+         <br>
+         <div>
+            <label for="password">Password:</label> 
+        <input type="password"/ placeholder="enter password" id="password">
+         </div>
+         
+     <button>submit</button>
+    
+        <br/>
+
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="search in google"/>
+        <button>search</button>
+
+    </form>
+    <form action="/server">
+        <input type="checkbox" id="age" name="age">
+        <label for="age">I am 18+</label>
+        <div>
+            <input type="radio" name="fruit"id="apple" value="apple">
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit"id="mango" value="mango">
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit"id="orange" value="orange">
+            <label for="orange">orange</label>
+        </div>
+        <div>
+            choose your professions
+            <select name="professions"id="professions">
+                <option value="stu">student</option>
+                <option value="dev">devloper</option>
+            
+            </select>
+            
+        </div>
+        <label for="vol">select your volume level:   </label>
+        <input type="range" id="vol" min="0" max="100" name=" val">
+        <br/>
+        <label for="feedback">please give your valuable feedback</label>
+        <textarea id="feedback" name="feedback"></textarea>
+        <button>submit</button>
+    </form>
+    <form action="/action">
+        <h3> registration form</h3>
+        <div>
+            <input type="text" placeholder="firstname" name="fname"/>
+            <input type="text" placeholder="lastname" name="lname"/>
+
+        </div>
+        <div>
+            <label for="gender"> pleade select gender</label>
+            <select name="gender" id="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>other</option>
+            </select>
+        </div>
+        <div>
+            do you agree to all terms of servies?
+            <input type="checkbox" id="tos_agree" name="tos_agree">
+            <label for="tos_agree">yes,i agree</label>
+        </div>
+        <button>register</button>
+    </form>
+    
+</body>
+</html>

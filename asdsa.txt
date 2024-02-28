@@ -1,0 +1,7 @@
+<h2>Trending now near you</h2>
+                <div class="cardcon">
+                    <div class="car">
+                        <img src=""class="cardim">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updated of the most played tracks...</p>
+                    </div>
